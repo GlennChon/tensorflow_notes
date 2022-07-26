@@ -13,9 +13,9 @@ conda install tensorflow-gpu
 Switch over to directml Python environment
 Enter command: `conda activate directml`
 
-[1 - Fundamentals](2%20-%20Fundamentals.md)
+[1 - Fundamentals](01%20-%20Fundamentals.md)
 * [.ipynb: 00_tensorflow_fundamentals](00_tensorflow_fundamentals.ipynb)
 * [.ipynb: 01_neural_network_regression_in_tensorflow](01_neural_network_regression_in_tensorflow.ipynb)
 
-[2 - Classification](2%20-%Classification.md)
+[2 - Classification](02%20-%Classification.md)
 * [.ipynb: 02_neural_network_classification_in_tensorflow](02_neural_network_classification_in_tensorflow.ipynb)
