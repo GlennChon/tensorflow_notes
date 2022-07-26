@@ -17,5 +17,5 @@ Enter command: `conda activate directml`
 * [.ipynb: 00_tensorflow_fundamentals](00_tensorflow_fundamentals.ipynb)
 * [.ipynb: 01_neural_network_regression_in_tensorflow](01_neural_network_regression_in_tensorflow.ipynb)
 
-[2 - Classification](02%20-%Classification.md)
+[2 - Classification](02%20-%20Classification.md)
 * [.ipynb: 02_neural_network_classification_in_tensorflow](02_neural_network_classification_in_tensorflow.ipynb)
