@@ -1,4 +1,4 @@
-# Basic Course outline stuff 
+# TensorFlow - Course Outline
 
 [Google CoLab](https://colab.research.google.com/drive/)
 
@@ -19,3 +19,7 @@ Enter command: `conda activate directml`
 
 [2 - Classification](02%20-%20Classification.md)
 * [.ipynb: 02_neural_network_classification_in_tensorflow](02_neural_network_classification_in_tensorflow.ipynb)
+* [Extra Resources](02_classification_challenge.md)
+
+[3 - Computer Vision](03%20-%20Computer_Vision.md)
+* [.ipynb: 03_convolutional_neural_networks_and_computer_vision](03_convolutional_neural_networks_and_computer_vision.ipynb)
