@@ -23,3 +23,4 @@ Enter command: `conda activate directml`
 
 [3 - Computer Vision](03%20-%20Computer_Vision.md)
 * [.ipynb: 03_convolutional_neural_networks_and_computer_vision](03_convolutional_neural_networks_and_computer_vision.ipynb)
+* [.ipynb: data_modification](image_data_modification.ipynb)
