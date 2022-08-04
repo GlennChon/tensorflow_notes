@@ -5,13 +5,19 @@
 ## Setup: 
 
 _To run jupyter notebooks within WSL2_ :
-[Setup instructions](https://docs.microsoft.com/en-us/windows/ai/directml/gpu-tensorflow-wsl)
-
-Then run :
-conda install tensorflow-gpu
+[Setup instructions](https://docs.microsoft.com/en-us/windows/ai/directml/gpu-tensorflow-plugin)
 
 Switch over to directml Python environment
 Enter command: `conda activate directml`
+
+Uninstall conda's version of pillow if it is installed:
+Enter command: `conda uninstall --force pillow`
+
+Install pip version of pillow:
+Enter command: `pip install pillow`
+
+Restart Environment
+Enter powershell command: `WSL --shutdown`
 
 [1 - Fundamentals](01%20-%20Fundamentals.md)
 * [.ipynb: 00_tensorflow_fundamentals](00_tensorflow_fundamentals.ipynb)
