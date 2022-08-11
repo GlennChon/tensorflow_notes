@@ -287,3 +287,23 @@ def calculate_results(y_true, y_pred):
                   "recall": model_recall,
                   "f1": model_f1}
   return model_results
+
+
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+import os
+import random
+
+def print_random_img(target_dir, data):
+    """ 
+        Displays random image and class from data, and target_dir
+    """
+    target_class = random.choice(data.class_names)
+    target_class_dir = os.path.join(target_dir, target_class)
+    random_image = random.choice(os.listdir(target_class_dir))
+    random_image_path = os.path.join(target_class_dir, random_image)
+    # Read in random image
+    img = mpimg.imread(random_image_path)
+    plt.imshow(img)
+    plt.title(f'Original random image | Class: {target_class}')
+    plt.axis(False)
