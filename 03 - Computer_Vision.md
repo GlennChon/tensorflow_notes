@@ -25,8 +25,12 @@ How they stack together:
 ![](https://raw.githubusercontent.com/mrdbourke/tensorflow-deep-learning/main/images/03-simple-convnet.png)
 *A simple example of how you might stack together the above layers into a convolutional neural network. Note the convolutional and pooling layers can often be arranged and rearranged into many different formations.*
 
-# Idea for Phd research:
+# Ideas for Phd research:
 * Using programmatically generated images from models via Unreal Engine to create image datasets for convolutional neural network training.
+
+* Hawk Identification for strobe light deterrent
+
+* Forest fire detection
 
 ## Conv2D
 Great! We've got a simple convolutional neural network architecture ready to go.
