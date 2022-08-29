@@ -262,11 +262,11 @@ def walk_through_dir(dir_path):
   Returns:
     A print out of:
       number of subdiretories in dir_path
-      number of images (files) in each subdirectory
+      number of files in each subdirectory
       name of each subdirectory
   """
   for dirpath, dirnames, filenames in os.walk(dir_path):
-    print(f"There are {len(dirnames)} directories and {len(filenames)} images in '{dirpath}'.")
+    print(f"There are {len(dirnames)} directories and {len(filenames)} files in '{dirpath}'.")
     
 # Function to evaluate: accuracy, precision, recall, f1-score
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
