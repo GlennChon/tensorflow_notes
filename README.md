@@ -5,20 +5,26 @@
 ## Setup: 
 
 _To run jupyter notebooks within WSL2_ :
-[Setup instructions](https://docs.microsoft.com/en-us/windows/ai/directml/gpu-tensorflow-plugin)
-[Enabling GPU acceleration on Ubuntu on WSL2](https://ubuntu.com/tutorials/enabling-gpu-acceleration-on-ubuntu-on-wsl2-with-the-nvidia-cuda-platform#1-overview)
+[Setup instructions](https://docs.nvidia.com/cuda/wsl-user-guide/index.html#ch02-sub03-installing-wsl2)
 
-Switch over to directml Python environment
-Enter command: `conda activate directml`
+Create an a new virtual env: 
+    `conda create --name ml`
 
-Uninstall conda's version of pillow if it is installed:
-Enter command: `conda uninstall --force pillow`
+Switch over to ml Python environment: 
+    `conda activate ml`
 
-Install pip version of pillow:
-Enter command: `pip install pillow`
+Uninstall conda's version of pillow if it is installed: 
+    `conda uninstall --force pillow`
 
-Restart Environment
-Enter powershell command: `WSL --shutdown`
+Install pip version of pillow: 
+    `pip install pillow`
+
+Install other packages:
+    `pip install numpy matplotlib pandas scikit-learn tensorboard tensorflow-cpu `
+
+### Restart Environment
+Enter powershell command: 
+    `WSL --shutdown`
 
 [1 - Fundamentals](01%20-%20Fundamentals.md)
 * [.ipynb: 00_tensorflow_fundamentals](00_tensorflow_fundamentals.ipynb)
